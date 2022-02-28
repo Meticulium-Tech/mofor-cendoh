@@ -369,7 +369,10 @@ ul,li{
     transform-origin: right center;
     opacity: 1;
 }
-
+.logo-name{
+	color: #FCC200;
+	font-size: 45px;
+}
 .btn-style-one:hover .btn-title{
 	background-color: #ffffff;
 	color: #FCC200;
@@ -1412,7 +1415,7 @@ img{
 }
 
 .light-section .sec-float-text {
-    -webkit-text-stroke: 2px #c2bfcf;	
+    -webkit-text-stroke: 2px #FCC200;	
 }
 
 
