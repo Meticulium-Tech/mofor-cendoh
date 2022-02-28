@@ -579,6 +579,7 @@ img{
 	top: 50px;
 	right: 100px;
 	z-index: 99;
+	transition: all 300ms ease;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -639,6 +640,7 @@ img{
 }
 
 .main-header .nav-outer{
+
 
 }
 
@@ -1295,7 +1297,7 @@ img{
 	font-size: 50px;
 	line-height: 1em;
 	font-weight: 600;
-	color: #1A191D;
+	color: #79672d;
 }
 
 .sec-title.light h2{
@@ -1821,10 +1823,15 @@ img{
 .about-me{
 	position: relative;
 	overflow: hidden;
+	background: transparent linear-gradient(90deg, #222222 0%, #1D1C21 100%) 0% 0% no-repeat padding-box;
 }
 
 .about-me .center-box{
 	padding: 90px 0;
+}
+.about-desc{
+	color: #ffffff;
+	font-size: 18px;
 }
 
 .about-me .background-shape{
@@ -1935,7 +1942,7 @@ img{
 .about-me .text-box h4{
 	font-size: 32px;
 	line-height: 36px;
-	color: #1A191D;
+	color: #494936;
 	font-weight: 600;
 	margin-bottom: 30px;
 }
@@ -1943,7 +1950,7 @@ img{
 .about-me .text-box p{
 	font-size: 18px;
 	line-height: 26px;
-	color: #443866;
+	color: white;
 	margin-bottom: 45px;
 }
 
@@ -2362,10 +2369,12 @@ img{
 .services-section{
 	position: relative;
 	overflow: hidden;
+	background: linear-gradient(#17161A, #79672d, #FCC200);
+	background-color: #17161A;
 }
 
 .services-section .background-shape{
-	background-image: url(../images/icons/shape4.svg);
+	background-image: url('images/icons/shape.jpg');
 	background-position: left top;
 }
 
@@ -2389,7 +2398,7 @@ img{
 
 .service-block .inner-box{
 	position: relative;
-	background-color: #f6f5f9;
+	background-color: #f1f6ef;
 	padding: 5px 30px 25px;
 	overflow: hidden;
 	box-shadow: 0 0 10px rgba(0,0,0,.10);
