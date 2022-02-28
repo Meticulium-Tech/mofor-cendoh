@@ -161,6 +161,7 @@ p,.text{
 	-ms-transition-delay: 500ms;
 	-o-transition-delay: 500ms;
 	transition-delay: 500ms;
+	color: #FCC200;
 }
 
 ul,li{
