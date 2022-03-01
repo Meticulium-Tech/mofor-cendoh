@@ -184,6 +184,12 @@
 }
 
 @media only screen and (max-width: 1280px){
+	.logo-name{
+		color: #FCC200;
+		font-size: 19px;
+		font-weight: normal;
+		font-family: Bulgatti;
+	}
 	.banner-section .title-box p br{
 		display: none;
 	}
@@ -314,6 +320,12 @@
 }
 
 @media only screen and (max-width: 1139px){
+	.logo-name{
+		color: #FCC200;
+		font-size: 19px;
+		font-weight: normal;
+		font-family: Bulgatti;
+	}
 
 	.main-header .main-box{
 		padding: 0 15px;
@@ -398,6 +410,12 @@
 }
 
 @media only screen and (max-width: 1023px){
+	.logo-name{
+		color: #FCC200;
+		font-size: 17px;
+		font-weight: normal;
+		font-family: Bulgatti;
+	}
 	
 	.mobile-nav-toggler{
 		display: block;
@@ -770,6 +788,12 @@
 }
 
 @media only screen and (max-width: 767px){
+	.logo-name{
+		color: #FCC200;
+		font-size: 18px;
+		font-weight: normal;
+		font-family: Bulgatti;
+	}
 	.banner-section .content-box{
 		max-width: 60%;
 	}
@@ -853,6 +877,12 @@
 
 
 @media only screen and (max-width: 599px){
+	.logo-name{
+		color: #FCC200;
+		font-size: 18px;
+		font-weight: normal;
+		font-family: Bulgatti;
+	}
 	.banner-section .content-box{
 		max-width: 100%;
 	}
@@ -960,6 +990,13 @@
 }
 
 @media only screen and (max-width: 479px){
+	
+	.logo-name{
+	color: #FCC200;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: Bulgatti;
+}
 	.sec-title .title:before{
 		display: none;
 	}
@@ -1020,4 +1057,50 @@
 		background-size: 50%;
 	}
 
+}
+
+@media only screen and (max-width: 320px){
+	.logo-name{
+	color: #FCC200;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Bulgatti;
+}
+	.sec-title .title:before{
+		display: none;
+	}
+	.sec-title .title{
+		padding-left: 0;
+	}
+
+	.sec-title h2, .banner-section .title-box h3{
+		font-size: 28px;
+	}
+
+	.project-tab .project-tab-btns .p-tab-btn{
+		margin: 0;
+		width: 50%;
+		padding: 10px 15px;
+	}
+
+	.project-block .caption-box h4{
+		font-size: 18px;
+	}
+
+	.resume-block .text-box h4{
+		font-size: 20px;
+	}
+
+	.banner-section .title-box h3{
+		font-size: 24px;
+	}
+
+	.contact-form{
+		padding: 20px 20px;
+	}
+
+	.contact-info-block .icon{
+		opacity: .30;
+	}
+	
 }
