@@ -1,4 +1,4 @@
-# vortfolio
-Hii guyss...this is a simple potfolio of my wesite
+# Dr. Mofor Cendoh
+(professional portfolio)
 
-see here :- https://kumarvicku.ml
+
